@@ -2,6 +2,7 @@ package com.far.scape
 
 import com.far.scape.scala.Cast
 
+//class Chiana implements JavaCast {
 class Chiana implements Cast {
 
   String name

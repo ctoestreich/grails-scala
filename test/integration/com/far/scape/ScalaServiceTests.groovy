@@ -2,10 +2,11 @@ package com.far.scape
 
 import grails.test.GrailsUnitTestCase
 import com.far.scape.scala.Crichton
+import com.far.scape.scala.service.ScalaService
 
-class GrailsServiceTests extends GrailsUnitTestCase {
+class ScalaServiceTests  extends GrailsUnitTestCase {
 
-  def grailsService
+  def scalaService = new ScalaService()
 
   protected void setUp() {
     super.setUp()
@@ -17,16 +18,17 @@ class GrailsServiceTests extends GrailsUnitTestCase {
 
   void testSaveGroovyObject() {
     def chiana = new Chiana(name: "Chiana")
-    assertTrue grailsService.saveObject(chiana)
+    assertTrue scalaService.saveObject(chiana)
   }
 
   void testSaveJavaObject() {
     def kadargo = new Kadargo(name: "Ka'Dargo")
-    assertTrue grailsService.saveObject(kadargo)
+    assertTrue scalaService.saveObject(kadargo)
   }
 
   void testSaveScalaObject() {
     def crichton = new Crichton(name: "Crichton")
-    assertTrue grailsService.saveObject(crichton)
+    assertTrue scalaService.saveObject(crichton)
   }
 }
+

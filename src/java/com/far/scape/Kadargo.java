@@ -2,6 +2,7 @@ package com.far.scape;
 
 import com.far.scape.scala.Cast;
 
+//public class Kadargo implements JavaCast {
 public class Kadargo implements Cast {
 
     private String name;

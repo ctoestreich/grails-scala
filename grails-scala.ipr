@@ -26,6 +26,31 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
+  <component name="DynamicElementsStorage">
+    <option name="containingClasses">
+      <map>
+        <entry key="com.far.scape.scala.Crichton">
+          <value>
+            <DClassElement>
+              <option name="name" value="com.far.scape.scala.Crichton" />
+              <option name="myName" value="com.far.scape.scala.Crichton" />
+              <option name="myProperties">
+                <set>
+                  <DPropertyElement>
+                    <option name="name" value="name" />
+                    <option name="type" value="java.lang.String" />
+                    <option name="myType" value="java.lang.String" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="name" />
+                  </DPropertyElement>
+                </set>
+              </option>
+            </DClassElement>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
